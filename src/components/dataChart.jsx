@@ -41,7 +41,7 @@ render(){
             <Container fluid="md">
                 <Row className="justify-content-md-center">
                     <Col lg="12" md="12">
-                    <h4>Visual Chart of COVID-19 Daily Statistics</h4>
+                    <h5>Visual Chart of COVID-19 Daily Statistics</h5>
                     </Col>
                 </Row>
             </Container>
@@ -49,7 +49,7 @@ render(){
                 
                 <Row className="justify-content-md-center">
                     <Col lg="12" md="12">
-                    <LineChart width={500} height={450} data={this.state.countries} margin={{top: 20, right: 30, left: 0, bottom: 20}}>
+                    <LineChart width={300} height={350} data={this.state.countries} margin={{top: 20, right: 30, left: 0, bottom: 20}}>
                     <CartesianGrid strokeDasharray="1 1" />
                     <XAxis dataKey="date" />
                     <YAxis />
