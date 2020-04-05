@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed with [React Js](https://github.com/facebook/create-react-app) , [React-Boostrap](https://react-bootstrap.github.io/), [Axios](https://www.npmjs.com/package/axios) and [Recharts](http://recharts.org/en-US).
 
 ## Available Scripts
 
